@@ -12,4 +12,4 @@ spin-up:
 	echo "Provision all MongoDB database"
 
 kill-all:
-	pkill -9 mongod
+	sudo pkill -9 mongod
