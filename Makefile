@@ -12,4 +12,4 @@ spin-up:
 	echo "Provision all MongoDB database"
 
 kill-all:
-	ps aux | grep mongod | grep -v grep | awk '{print $2}' | xargs kill -9
+	pkill -9 mongod
